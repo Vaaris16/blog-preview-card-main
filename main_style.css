@@ -1,0 +1,88 @@
+html {
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    height: 100%;
+}
+
+.main {
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    /*width: 312px;*/
+    border: 2px solid black;
+    /*height: 440px;*/
+    width: fit-content;
+    height: fit-content;
+    padding-top: 65px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 0px 1.75px black;
+    position: relative;
+    flex-direction: column;
+}
+
+.banner {
+    border-radius: 10px;
+    width: 275px;
+    margin-top: -30px;
+    
+}
+
+@font-face {
+    font-family: figtree-extra-bold;
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: figtree-medium;
+    src: url(assets/fonts/static/Figtree-Medium.ttf);
+}
+
+@font-face {
+    font-family: figtree-var-font;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+.date {
+    font-size: 15px;
+    font-family: figtree-var-font;
+    font-weight: 300;
+    transform: translateX(-62px) translateY(11px);
+}
+
+.title {
+    font-family: figtree-extra-bold;
+    font-size: 25px;
+    transform: translateY(-9px);
+}
+
+.description {
+    transform: translateX(-5px) translateY(-20px);
+    font-size: 14px;
+    font-family: figtree-var-font;
+    font-weight: 200;
+}
+
+.profile {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.profile_pic {
+    width: 25px;
+    height: 25px;
+    transform: translateX(-100px);
+}
+
+.name {
+    transform: translateX(-90px);
+    font-size: 10px;
+    font-family:figtree-extra-bold;
+}

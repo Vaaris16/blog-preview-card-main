@@ -1,0 +1,14 @@
+.background_learning {
+    width: fit-content;
+    height: fit-content;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 5px;
+    transform: translateX(-110px) translateY(10px);
+    background-color: hsl(47, 88%, 63%);
+}
+
+.text_learning {
+    font-family: figtree-extra-bold;
+    font-size: 10px;
+}
